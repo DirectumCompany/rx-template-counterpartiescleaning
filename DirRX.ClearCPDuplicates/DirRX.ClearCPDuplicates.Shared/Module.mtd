@@ -1,0 +1,118 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "10a0fbdc-71ea-4f88-9a75-03e5e11e2e94",
+  "Name": "ClearCPDuplicates",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.ClearCPDuplicates.Client",
+  "ClientBaseAssemblyName": "DirRX.ClearCPDuplicates.ClientBase",
+  "ClientBaseNamespace": "DirRX.ClearCPDuplicates.ClientBase",
+  "ClientNamespace": "DirRX.ClearCPDuplicates.Client",
+  "Code": "ClearCP",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "7a13952a-1622-476a-8414-bc1c44d54ef0",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "29236eaf-c493-4e98-a247-6859b896ad19",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "25bcdd58-5b90-4a40-9ec6-09b44ab42fbd",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "35ce28dc-14d1-4406-a367-8f204693d57c",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.ClearCPDuplicates",
+  "IsolatedAssemblyName": "DirRX.ClearCPDuplicates.Isolated",
+  "IsolatedNamespace": "DirRX.ClearCPDuplicates.Isolated",
+  "IsVisible": false,
+  "Jobs": [
+    {
+      "NameGuid": "7fcac010-7d38-4a83-b8d1-4ce2f669e21d",
+      "Name": "CompaniesCheckDoubles",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T03:00:00"
+    },
+    {
+      "NameGuid": "1cc34e18-2262-4ca9-8c96-1fbb0965b84b",
+      "Name": "DeleteDoublesCompanies",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T06:00:00"
+    },
+    {
+      "NameGuid": "83fb5dd3-fa13-4e67-ac85-4f7e886c3d11",
+      "Name": "DocumentsChangeOriginalCompanies",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T05:00:00"
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "SendNoticeToResponsibleWithAttachments",
+      "Parameters": [
+        {
+          "Name": "subject",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "text",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "entityList",
+          "ParameterType": "global::System.Collections.Generic.List<global::Sungero.Domain.Shared.IEntity>",
+          "ParameterTypeFullName": "System.Collections.Generic.List"
+        },
+        {
+          "Name": "assignmentType",
+          "ParameterType": "global::Sungero.Core.Enumeration",
+          "ParameterTypeFullName": "Sungero.Core.Enumeration, Sungero.Domain.Shared"
+        }
+      ],
+      "ReturnType": "global::Sungero.Workflow.ISimpleTask",
+      "ReturnTypeFullName": "Sungero.Workflow.ISimpleTask, Sungero.Workflow.Interfaces"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.ClearCPDuplicates",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.ClearCPDuplicates.Server",
+  "ServerNamespace": "DirRX.ClearCPDuplicates.Server",
+  "SharedAssemblyName": "DirRX.ClearCPDuplicates.Shared",
+  "SharedNamespace": "DirRX.ClearCPDuplicates.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

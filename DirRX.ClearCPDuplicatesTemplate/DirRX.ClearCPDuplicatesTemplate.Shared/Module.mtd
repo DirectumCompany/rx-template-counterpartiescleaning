@@ -1,0 +1,65 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "35ce28dc-14d1-4406-a367-8f204693d57c",
+  "Name": "ClearCPDuplicatesTemplate",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Client",
+  "ClientBaseAssemblyName": "DirRX.ClearCPDuplicatesTemplate.ClientBase",
+  "ClientBaseNamespace": "DirRX.ClearCPDuplicatesTemplate.ClientBase",
+  "ClientNamespace": "DirRX.ClearCPDuplicatesTemplate.Client",
+  "Code": "Cleari1",
+  "CompanyCode": "DirRX",
+  "Cover": {
+    "NameGuid": "9e76212a-ecb9-4752-b87b-01927296cccf",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "11f3ea6c-459c-4951-8a81-2e329dde5827",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "89ef3f68-1308-4139-986d-40a4c888f7fd",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "5a9c1a34-3f9e-49bb-b2c6-1df06e2b7a09"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "DirRX.ClearCPDuplicatesTemplate",
+  "IsolatedAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Isolated",
+  "IsolatedNamespace": "DirRX.ClearCPDuplicatesTemplate.Isolated",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "DirRX.ClearCPDuplicatesTemplate",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Server",
+  "ServerNamespace": "DirRX.ClearCPDuplicatesTemplate.Server",
+  "SharedAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Shared",
+  "SharedNamespace": "DirRX.ClearCPDuplicatesTemplate.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
