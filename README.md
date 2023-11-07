@@ -18,7 +18,7 @@
 <block name="REPOSITORIES">
   <repository folderName="Base" solutionType="Base" url="" /> 
   <repository folderName="<Папка из п.1>" solutionType="Work" 
-     url="https://github.com/DirectumCompany/rx-util-importdata-net-core.git" />
+     url="https://github.com/DirectumCompany/rx-template-counterpartiescleaning.git" />
 </block>
 ```
 ## Дополнительно
