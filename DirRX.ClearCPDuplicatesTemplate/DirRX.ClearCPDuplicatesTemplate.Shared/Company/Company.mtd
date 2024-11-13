@@ -28,7 +28,7 @@
         {
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "149a02cc-c0af-4bec-8a1b-8d6c0bab1d81",
-          "Name": "Counterparty",
+          "Name": "CounterpartyGroup",
           "ColumnDefinitions": [
             {
               "Percentage": 55.01
@@ -493,7 +493,8 @@
     }
   ],
   "HandledEvents": [
-    "BeforeSaveServer"
+    "BeforeSaveServer",
+    "CreatingFromServer"
   ],
   "IconResourcesKeys": [],
   "LayeredFromGuid": "593e143c-616c-4d95-9457-fd916c4aa7f8",
