@@ -7,6 +7,17 @@ using DirRX.ClearCPDuplicatesTemplate.Company;
 
 namespace DirRX.ClearCPDuplicatesTemplate
 {
+  partial class CompanyCreatingFromServerHandler
+  {
+
+    public override void CreatingFrom(Sungero.Domain.CreatingFromEventArgs e)
+    {
+      base.CreatingFrom(e);
+      e.Without(_info.Properties.OriginalCompanyDirRX);
+      e.Without(_info.Properties.DoubleStatusDirRX);      
+    }
+  }
+
   partial class CompanyOriginalCompanyDirRXPropertyFilteringServerHandler<T>
   {
 
