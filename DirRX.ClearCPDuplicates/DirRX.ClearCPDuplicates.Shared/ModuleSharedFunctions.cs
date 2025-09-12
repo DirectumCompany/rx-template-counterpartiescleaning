@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace DirRX.ClearCPDuplicates.Shared
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }

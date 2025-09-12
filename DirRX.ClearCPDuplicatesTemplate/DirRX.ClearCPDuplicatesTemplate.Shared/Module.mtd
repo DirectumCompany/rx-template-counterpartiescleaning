@@ -31,7 +31,6 @@
       "ItemId": "5a9c1a34-3f9e-49bb-b2c6-1df06e2b7a09"
     }
   ],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "DirRX.ClearCPDuplicatesTemplate",
@@ -41,7 +40,6 @@
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "DirRX.ClearCPDuplicatesTemplate",
-  "ResourcesKeys": [],
   "ServerAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Server",
   "ServerNamespace": "DirRX.ClearCPDuplicatesTemplate.Server",
   "SharedAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Shared",
@@ -52,11 +50,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "DomainApi",

@@ -12,7 +12,7 @@ using System.Collections;
 
 namespace DirRX.ClearCPDuplicates.Server
 {
-  public class ModuleJobs
+  public partial class ModuleJobs
   {
     /// <summary>
     /// Фоновый процесс изменения поля организации в документах.

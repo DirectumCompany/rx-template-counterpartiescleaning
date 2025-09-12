@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace DirRX.ClearCPDuplicatesTemplate.Server
 {
-  public class ModuleJobs
+  public partial class ModuleJobs
   {
 
   }

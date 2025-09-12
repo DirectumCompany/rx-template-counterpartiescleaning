@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace DirRX.ClearCPDuplicates.Server
 {
-  public class ModuleAsyncHandlers
+  public partial class ModuleAsyncHandlers
   {
   }
 }
