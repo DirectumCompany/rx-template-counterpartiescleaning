@@ -27,7 +27,7 @@
       repository:
       -   '@folderName': 'work'
           '@solutionType': 'Work'
-          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
+          '@url': https://github.com/DirectumCompany/rx-template-counterpartiescleaning.git'
       -   '@folderName': 'base'
           '@solutionType': 'Base'
           '@url': ''
