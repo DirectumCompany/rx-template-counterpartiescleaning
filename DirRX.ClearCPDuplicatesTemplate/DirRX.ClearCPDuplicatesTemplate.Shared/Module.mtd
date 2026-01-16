@@ -45,7 +45,7 @@
   "SharedAssemblyName": "DirRX.ClearCPDuplicatesTemplate.Shared",
   "SharedNamespace": "DirRX.ClearCPDuplicatesTemplate.Shared",
   "SpecialFolders": [],
-  "Version": "0.0.1.0",
+  "Version": "0.0.1.1",
   "Widgets": [],
   "Versions": [
     {
