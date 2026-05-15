@@ -1,0 +1,23 @@
+{
+  "BankDetailsDirRX_Caption_4b9defe5f46d4581b50a5c0be4a80a50": {
+    "en-US": "Bank details",
+    "ru-RU": "Банковские реквизиты"
+  },
+  "CommentGroupDirRX_Caption_69a4139490424b338d9ce5253d0a8c27": {
+    "en-US": "Note",
+    "ru-RU": "Примечание"
+  },
+  "ContactsDirRX_Caption_9e3df66a01e8408aaa4ca5c92a1227fb": {
+    "en-US": "Contacts",
+    "ru-RU": "Контактная информация"
+  },
+  "Description": {},
+  "DuplicatesDirRX_Caption_56affe4e0db34f6ea57ab4b04b832a8f": {
+    "en-US": "Duplicates",
+    "ru-RU": "Дубли"
+  },
+  "Name": {
+    "en-US": "Company",
+    "ru-RU": "Организация"
+  }
+}
