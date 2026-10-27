@@ -138,8 +138,8 @@ namespace DirRX.ClearCPDuplicates.Server
 
       var companies = ClearCPDuplicatesTemplate.Companies.GetAll()
         .Where(c => c.OriginalCompanyDirRX == null).ToList()
-        .Where(c => (c.ExchangeBoxes.Any() || c.CanExchange == true) && !c.DoubleStatusDirRX.HasValue);
-      Logger.DebugFormat("CompaniesCheckDoubles. Найдено организаций с настройками обмена {0}.", companies.Count());
+        .Where(c => (c.ExchangeBoxes.Any() || c.CanExchange == true || c.IsCardReadOnly == true) && !c.DoubleStatusDirRX.HasValue);
+      Logger.DebugFormat("CompaniesCheckDoubles. Найдено организаций с настройками обмена или НОР: {0}.", companies.Count());
 
       foreach (var company in companies)
       {
